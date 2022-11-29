@@ -27,3 +27,8 @@
 .b-backTop {
     right: 20px;
 }}
+@media screen and (max-width: 1024px){
+    a.header__link {
+        display: none;
+    }
+}
