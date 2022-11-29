@@ -26,19 +26,6 @@ a.header__logo-wrapper, a.header__link, a.b-header__donate-btn{
 .header__link{
     margin: 0 1.5rem 0 0;
 }
-.header__name{
-    font-family: 'Gilroy', monospace;
-    line-height: 0.9;
-    font-size: 1rem;
-    font-weight: bold;
-}
-.header__region{
-    font-family: 'Gilroy', monospace;
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 300;}
-
-
 
 .navigation-table{
     display: flex;
