@@ -17,7 +17,7 @@ hr{box-sizing:content-box;height:0;overflow:visible}
     background: #252525;
 }
 
-a.header__logo-wrapper, a.header__link, a.header__link_last , a.b-header__donate-btn{
+a.header__logo-wrapper, a.header__link, a.header__link_last, a.b-header__donate-btn{
     color: white;
     text-decoration: none;
 }
