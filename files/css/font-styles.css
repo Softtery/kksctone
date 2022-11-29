@@ -6,6 +6,18 @@
     src: url(/files/fonts/tt/gilroy/) format('ttf');
 }
 /*Header*/
+.header__name{
+    font-family: 'Gilroy', monospace;
+    line-height: 0.9;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.header__region{
+    font-family: 'Gilroy', monospace;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+}
 .header__links{
     text-transform: uppercase;
     text-decoration: none;
@@ -13,7 +25,6 @@
     font-size: 1rem;
     font-family: 'Gilroy', monospace;
 }
-
 .b-header__donate-btn-text{
     font-family: 'Gilroy', monospace;
     font-weight: 500;
