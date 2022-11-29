@@ -5,7 +5,7 @@
     height: 5rem;
 }}
 @media screen and (max-width: 680px){
-    .b-header__donate-btn-text {
+    .b-header__donate-btn-text, .header__name  {
         transition: 0.2s ease;
         display: none;
 }}
