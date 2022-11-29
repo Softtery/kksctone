@@ -55,15 +55,13 @@ a.header__logo-wrapper, a.header__link, a.b-header__donate-btn{
 
 .header__logo-wrapper{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     text-decoration: none;
 }
 .header__logo_icon{
     display: block;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.8rem;
+    width: 20%;
+    margin-right: 0.5rem;
 }
 .header__name{
     margin: 0;
