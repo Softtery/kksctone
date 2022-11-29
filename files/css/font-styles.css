@@ -1,0 +1,62 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/files/fonts/woff2/gilroy/) format('woff2');
+    src: url(/files/fonts/woff/gilroy/) format('woff');
+    src: url(/files/fonts/tt/gilroy/) format('ttf');
+}
+/*Header*/
+.header__name{
+    font-family: 'Gilroy', monospace;
+    line-height: 0.9;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.header__region{
+    font-family: 'Gilroy', monospace;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+}
+.header__links{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Gilroy', monospace;
+}
+.b-header__donate-btn-text{
+    font-family: 'Gilroy', monospace;
+    font-weight: 500;
+    letter-spacing: 0.12rem;
+    font-size: 0.8rem;
+}
+/*Navigation*/
+.navigation-block-text{
+    font-family: 'Gilroy', monospace;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem 0rem 1rem 0rem;
+    color: #252525;
+    pointer-events: none;
+}
+/*Content*/
+/*Footer*/
+.b-footer__copy {
+    font-family: 'Gilroy', monospace;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    padding: 0 0.2rem 0rem 0.2rem;
+    color: #808080;
+    pointer-events: none;
+}
+
+#noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
