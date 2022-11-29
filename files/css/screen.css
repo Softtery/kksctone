@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px){
+.b-header {
+    transition: 0.2s ease;
+    padding: 0 1rem 0 1rem;
+    height: 5rem;
+}}
+@media screen and (max-width: 680px){
+    .b-header__donate-btn-text {
+        transition: 0.2s ease;
+        display: none;
+}}
+@media screen and (min-width: 681px){
+    .b-header__donate-btn-plus {
+        transition: 0.2s ease;
+        display: none;
+    }}
+@media screen and (max-width: 680px){
+    a.b-header__donate-btn {
+        transition: 0.2s ease;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}}
+@media screen and (min-width: 680px){
+    a.b-header__donate-btn {
+        transition: 0.2s ease;
+}}
+@media screen and (max-width: 1024px){
+.b-backTop {
+    right: 20px;
+}}
