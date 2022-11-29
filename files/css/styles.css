@@ -60,7 +60,7 @@ a.header__logo-wrapper, a.header__link, a.b-header__donate-btn{
 }
 .header__logo_icon{
     display: block;
-    width: 20%;
+    width: 3rem;
     margin-right: 0.5rem;
 }
 .header__name{
