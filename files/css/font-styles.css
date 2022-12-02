@@ -1,10 +1,5 @@
-/*Fonts*/
-@font-face {
-    font-family: 'Gilroy';
-    src: url(/files/fonts/woff2/gilroy/) format('woff2');
-    src: url(/files/fonts/woff/gilroy/) format('woff');
-    src: url(/files/fonts/tt/gilroy/) format('ttf');
-}
+/*importing fonts*/
+@import 'font-face.css';
 /*Header*/
 .header__name{
     font-family: 'Gilroy', monospace;
@@ -22,13 +17,13 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Gilroy', monospace;
 }
 .b-header__donate-btn-text{
     font-family: 'Gilroy', monospace;
-    font-weight: 500;
-    letter-spacing: 0.12rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
     font-size: 0.8rem;
 }
 /*Navigation*/
