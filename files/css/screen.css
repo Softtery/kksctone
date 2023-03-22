@@ -1,0 +1,66 @@
+@media screen and (min-width: 1024px){
+    .social-links-mobile, .burger-btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px){
+    .social-links, .burger-btn, .social-links-mobile{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main{
+        padding: 1rem 2rem;
+    }
+    .conspects{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 95%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    #qr{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 767px){
+    /* .donate-btn-text{
+        transition: 0.3s;
+        display: none;
+    } */
+    /* .header{
+        height: 90px;
+    } */
+    .selahs{
+        display: flex;
+        flex-direction: column;
+    }
+    .centered{
+        font-size: 3rem;
+    }
+    .upper_main{
+        display: flex;
+        flex-direction: column;
+    }
+    .years{
+        font-size: 3rem;
+    }
+    .title_main_summer{
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    .footer-copy{
+        font-size: 70%;
+    }
+}
+@media screen and (min-width: 767px){
+    /* .donate-btn-plus{
+        display: none;
+    } */
+}

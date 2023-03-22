@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+#noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+html,
+body{
+    font-family: Gilroy;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+    background-color: #EBF1F1;
+}
+header{
+    height: 70px;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E09C22;
+}
+nav{
+    background-color: #E1A945;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: #262626;
+    color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    border-top: 2px solid #E09C22;
+    padding: 0 1rem;
+}
+main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    background-color: #f5f5f5;
+    padding: 2rem 3rem;
+    /* max-width: 1200px; */
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-left{
+    padding: 0 1rem;
+    display: flex;
+
+}
+.header-right{
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.header-center, .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.name_and_region{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-name{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-bottom: -0.2rem;
+}
+.head-region{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+    padding-right: 0.5rem;
+}
+.header-center{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 1rem;
+}
+.nav-link{
+    color: #262626;
+    text-align: center;
+    padding: 0 1rem;
+    font-weight: bold;
+    line-height: 90%;
+    text-align: left;
+}
+a.donate {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 4rem;
+    color: #E09C22;
+    font-size: 0.8rem;
+    border: 1.5px solid #E09C22;
+}
+.donate-btn-text{
+    letter-spacing: 0.04em;
+}
+.donate-btn-plus{
+    display: flex;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+.social-links-mobile{
+    display: flex;
+    flex-direction: row;
+}
+.social-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.2rem;
+}
+.social-logo-mobile{
+    height: 2em;
+    height: 2rem;
+    padding: 0 0.2rem;
+}
+.social-logo:hover, .social-logo-mobile:hover{
+    transition: 0.2s;
+    fill: white;
+}
+.footer-copy{
+    padding: 1rem 0;
+}
+
+.nav-link:hover{
+    transition: 0.2s;
+    color: #FFFFFF;
+}
+.donate:hover{
+    transition: 0.2s;
+    background-color: #E09C22;
+    color: #262626;
+}
+.other_us{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.other-link{
+    display: flex;
+    height: 17vw;
+    width: 20%;
+    background-color: white;
+    color: #262626;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+/* ВЕРХНИЙ MAIN  */
+.upper_main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 1em;
+    padding: 1rem 0rem;
+}
+.last-articles, .last-stream{
+    font-family: gilroy;
+    font-weight: bold;
+    font-size: 2rem;
+    max-width: 580px;
+    white-space: nowrap;
+}
+.title_line{
+    margin: 0rem;
+}
+.img_back{
+    padding-top: 1rem;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* НИЖНИЙ MAIN */
+
+
+/* DONATION */
+h1{
+    font-family: gilroy;
+    font-weight: bold;
+    font-size: 4rem;
+    font-size: 64px;
+    margin-bottom: 0.5rem;
+}
+#donate{
+    display: flex;
+    flex-direction: column;
+}
+.donation{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 24px;
+}
+/* .robocassa{
+    display: flex;
+    justify-content: flex-end;
+} */
+.qr{
+    width: 20rem;
+    height: 20rem;
+}
+#qr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: gilroy;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 95.8%;
+}
+
+/* CONSPECTS */
+#conspects{
+    display: flex;
+    flex-direction: column;
+}
+.conspects{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E09C22;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.conspects{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.title, .name{
+    overflow-wrap: break-word;
+    text-align: center;
+    flex: 1;
+}
+.link{
+    padding-left: 0.8rem;
+}
+
+
+
+
+
+/* СЕЛАХИ */
+#selah{
+    display: flex;
+    flex-direction: column;
+}
+.selahs{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 1em;
+    padding: 1rem 0rem;
+}
+.img_selah{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_selah{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.container_selah:hover{
+    color: #E09C22;
+    transition: 0.3s;
+}
+
+/* ЛЕТНИЕ СЕЛАХИ */
+#summer{
+    flex-direction: column;
+    padding: 0rem;
+    position: relative;
+    color: #FFFFFF;
+}
+#bg{
+    background-image: url("/files/img/background/Frame\ 152.png");
+    background-size: cover;
+}
+.years_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin: 1rem 1rem 0rem 1rem;
+}
+.years{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E09C22;
+    border-radius: 3rem;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #262626;
+    white-space: nowrap;
+}
+#summer_main{
+    padding: 1rem 2rem;
+}
+.title_main_summer{
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-weight: 300;
+}
+
+hr{
+	border: none;
+	border-top: 1px solid #262626;
+    margin: 1rem 0rem;
+}
+
+h2{
+    font-size: 40px;
+    word-wrap: normal;
+}
+
