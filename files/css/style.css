@@ -403,7 +403,7 @@ span{
     color: white;
 }
 #bg{
-    background-image: url("/files/img/background/Frame\ 152.png");
+    background-image: url("./files/img/background/Frame 152.png");
     background-size: cover;
 }
 .years_block{
