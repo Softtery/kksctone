@@ -18,7 +18,7 @@ body{
     width: 100%;
     overflow-x: auto;
     margin: 0 auto;
-    background-color: #f5f5f5;
+    background-color: #EBF1F1;
 }
 header{
     height: 70px;
@@ -44,7 +44,6 @@ footer{
     font-size: 1vw;
     border-top: 2px solid #E09C22;
     padding: 1rem 1rem;
-    margin-top: 1rem;
 }
 main{
     flex: 1 1 auto;
@@ -181,6 +180,34 @@ a.donate {
     padding: 2rem;
 }
 
+/* ВЕРХНИЙ MAIN  */
+.upper_main, .lower_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    padding: 1rem 0rem;
+}
+#title{
+    font-family: gilroy;
+    font-weight: bold;
+    font-size: 4vw;
+    white-space: nowrap;
+}
+.title_line{
+    margin: 0rem;
+    margin-bottom: 0.5rem;
+}
+.img_back{
+    padding-top: 1rem;
+    width: 200px;
+    object-fit: cover;
+}
+li{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+/* НИЖНИЙ MAIN */
 
 
 /* DONATION */
@@ -189,7 +216,6 @@ h1{
     font-weight: bold;
     font-size: 5vw;
     margin-bottom: 0.5rem;
-    color: #262626;
 }
 #donate{
     display: flex;
@@ -260,102 +286,6 @@ h1{
 
 
 
-
-
-/* ГЛАВНАЯ */
-.title-page{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
-
-.title-line{
-    margin: 0;
-    margin-bottom: 0.5rem;
-}
-
-.articles-last, .streams-last{
-    padding-bottom: 0.5rem;
-}
-
-.articles-last_img, .streams-last_img{
-    width: 100%;
-}
-
-.articles-carousel, .streams-carousel{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.articles-carousel_img, .streams-carousel_img{
-    width: 100%;
-}
-
-.articles-carousel_img:hover, .streams-carousel_img:hover{
-    outline: 5px #E09C22 solid;
-    outline-offset: -5px;
-    transition: 0.2s;
-}
-
-.schedule-list__item{
-    display: grid;
-    grid-template-columns: 0.5fr 4.5fr;
-    gap: 1rem;
-    grid-template-areas:
-        "num date"
-        "time text"
-        "time_b text_b";
-    align-items: center;
-}
-
-.schedule-list__item_date{
-    grid-area: date;
-}
-
-.schedule-list__item_num{
-    padding-left: 2rem;
-    grid-area: num;
-    color: #E1A945;
-}
-
-.weekend{
-    color: firebrick;
-}
-
-.schedule-list__item_time{
-    grid-area: time;
-    border: 2px solid #262626;
-    border-radius: 7px;
-    text-align: center;
-    font-weight: 400;
-    padding: 0.2rem;
-}
-
-.schedule-list__item_text{
-    grid-area: text;
-}
-
-.time_b{
-    grid-area: time_b;
-    border: 2px solid #262626;
-    border-radius: 7px;
-    text-align: center;
-    font-weight: 400;
-    padding: 0.2rem;
-}
-
-.text_b{
-    grid-area: text_b;
-}
-
-span{
-    font-size: 2vw;
-}
-
-
-
-
 /* СЕЛАХИ */
 #selah{
     display: flex;
@@ -398,9 +328,6 @@ span{
     padding: 0rem;
     position: relative;
     color: #FFFFFF;
-}
-.title-main-header_summer{
-    color: white;
 }
 #bg{
     background-image: url("/files/img/background/Frame\ 152.png");
@@ -445,28 +372,7 @@ hr{
 }
 
 h2{
-    font-size: 3vw;
+    font-size: 40px;
     word-wrap: normal;
-    color: #262626;
-}
-
-h3{
-    color: #262626;
-    word-wrap: normal;
-    font-size: 2vw;
-    font-weight: 600;
-}
-
-h4{
-    color: #262626;
-    word-wrap: normal;
-    font-size: 2vw;
-    font-weight: 400;
-}
-h5{
-    color: #262626;
-    word-wrap: normal;
-    font-size: 1.2vw;
-    font-weight: bold;
 }
 

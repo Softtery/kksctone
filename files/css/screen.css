@@ -22,12 +22,6 @@
         font-size: 20px;
         line-height: 95%;
     }
-    h1{
-        font-size: 3rem;
-    }
-    #qr{
-        font-size: 1.8rem;
-    }
 }
 @media screen and (max-width: 767px){
     /* .donate-btn-text{
@@ -44,9 +38,13 @@
     .centered{
         font-size: 3rem;
     }
-    .upper_main{
-        display: flex;
-        flex-direction: column;
+    hr{
+        border: none;
+        border-top: 1.5px solid #262626;
+        margin: 1rem 0rem;
+    }
+    .last-articles, .last-stream{
+        font-size: 8vw;
     }
     .years{
         font-size: 3rem;
@@ -55,12 +53,57 @@
         font-weight: 300;
         font-size: 0.8rem;
     }
-    .footer-copy{
-        font-size: 70%;
+    h1{
+        font-size: 8vw;
+    }
+    .donation{
+        font-size: 3vw;
+    }
+    #qr{
+        font-size: 5vw;
+    }
+    .qr{
+        width: 35vw;
+        margin-right: 3vw;
     }
 }
 @media screen and (min-width: 767px){
     /* .donate-btn-plus{
         display: none;
     } */
+}
+
+
+
+/* TITLE SCREEN MEDIA */
+@media screen and (max-width: 767px){
+    .title-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .articles, .news{
+        background-color: #e4e4e4;
+        padding: 1rem;
+    }
+    .news{
+        order: -1;
+        background-color: wheat;
+    }
+    .schedule{
+        background-color: #e4e4e4;
+        padding: 1rem;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    h3{
+        font-size: 4vw;
+    }
+    h4, .schedule-list__item_time, .schedule-list__item_time_b{
+        font-size: 3vw;
+        font-weight: 300;
+    }
+    span{
+        font-size: 2.5vw;
+    }
 }
