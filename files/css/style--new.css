@@ -433,19 +433,19 @@ main {
 }
 
 .heading__summer {
-    background-image: url(/files/img/bg/summer__bg.jpg);
+    background-image: url('../files/img/bg/summer__bg.jpg');
 }
 
 .heading__family {
-    background-image: url(/files/img/bg/family__bg.jpg);
+    background-image: url('../files/img/bg/family__bg.jpg');
 }
 
 .heading__pastor {
-    background-image: url(/files/img/bg/pastor__bg.jpg);
+    background-image: url('../files/img/bg/pastor__bg.jpg');
 }
 
 .heading__lider {
-    background-image: url(/files/img/bg/lider__bg.jpg);
+    background-image: url('../files/img/bg/lider__bg.jpg');
 }
 
 .selah__list{
