@@ -12,7 +12,7 @@ svg path {
 }
 
 header {
-    background-image: url(/files/img/bg/header--dark.jpg);
+    background-image: url(../files/img/bg/header--dark.jpg);
 }
 
 nav, .tab__btn:hover, .tab__btn--active, .selah__item a {
