@@ -1,0 +1,59 @@
+body{
+    background-color: var(--main-light);
+    color: var(--text-light);
+}
+
+a, .selah__item a{
+    color: var(--text-light);
+}
+
+svg path {
+    fill: var(--text-light);
+}
+
+header {
+    background-image: url(/files/img/bg/header.jpg);
+}
+
+nav, .tab__btn:hover, .tab__btn--active, .selah__item a {
+    background-color: var(--block-light);
+}
+
+.donate {
+    border: 2px solid var(--text-light);
+}
+
+.donate:hover {
+    background-color: var(--block-light);
+    border: 2px solid var(--block-light);
+    color: var(--text-light);
+    transition: 0.2s;
+}
+
+.schedule__list, .news__list {
+    border-top: 2px solid var(--text-light);
+    border-bottom: 2px solid var(--text-light);
+}
+
+.article__main {
+    background-color: var(--block-light);
+    color: var(--text-light);
+}
+
+footer {
+    border-top: 3px solid var(--block-light);
+}
+
+/* Switcher */
+
+.switcher__radio {
+    filter: invert(0);
+}
+
+.switcher__radio:checked {
+    filter: invert(1);
+}
+
+.switcher__status {
+    filter: invert(0);
+}
