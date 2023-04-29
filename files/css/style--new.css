@@ -149,15 +149,15 @@ button {
     }
     
     .switcher__radio--light {
-    background-image: url("icons/light.svg");
+    background-image: url("/files/icons/light.svg");
     }
     
     .switcher__radio--auto {
-    background-image: url("icons/auto.svg");
+    background-image: url("/files/icons/auto.svg");
     }
     
     .switcher__radio--dark {
-    background-image: url("icons/dark.svg");
+    background-image: url("/files/icons/dark.svg");
     }
     
     /* Switcher Status */
@@ -173,7 +173,7 @@ button {
     border-radius: 18px;
     background-color: rgb(255 255 255 / 0.5);
     background-repeat: no-repeat;
-    background-image: url("icons/status.svg");
+    background-image: url("/files/icons/status.svg");
     background-size: 32px;
     background-position: center;
     transition: background-position 0.1s ease-in;
