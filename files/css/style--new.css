@@ -5,11 +5,11 @@
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
+    /* Р‘СЂР°СѓР·РµСЂ СЃРЅР°С‡Р°Р»Р° РїРѕРїСЂРѕР±СѓРµС‚ РЅР°Р№С‚Рё С€СЂРёС„С‚ Р»РѕРєР°Р»СЊРЅРѕ */
     src: local("Gilroy-Regular"),
-         /* Если не получилось, загрузит woff2 */
+         /* Р•СЃР»Рё РЅРµ РїРѕР»СѓС‡РёР»РѕСЃСЊ, Р·Р°РіСЂСѓР·РёС‚ woff2 */
          url("/files/fonts/woff2/gilroy/Gilroy-Regular.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Р•СЃР»Рё Р±СЂР°СѓР·РµСЂ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ woff2, Р·Р°РіСЂСѓР·РёС‚ woff */
          url("/files/fonts/woff/gilroy/Gilroy-Regular.woff") format("woff");
 }
 
@@ -17,11 +17,11 @@
     font-family: "Gilroy";
     font-style: italic;
     font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
+    /* Р‘СЂР°СѓР·РµСЂ СЃРЅР°С‡Р°Р»Р° РїРѕРїСЂРѕР±СѓРµС‚ РЅР°Р№С‚Рё С€СЂРёС„С‚ Р»РѕРєР°Р»СЊРЅРѕ */
     src: local("Gilroy-RegularItalic"),
-         /* Если не получилось, загрузит woff2 */
+         /* Р•СЃР»Рё РЅРµ РїРѕР»СѓС‡РёР»РѕСЃСЊ, Р·Р°РіСЂСѓР·РёС‚ woff2 */
          url("/files/fonts/woff2/gilroy/Gilroy-RegularItalic.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Р•СЃР»Рё Р±СЂР°СѓР·РµСЂ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ woff2, Р·Р°РіСЂСѓР·РёС‚ woff */
          url("/files/fonts/woff/gilroy/Gilroy-RegularItalic.woff") format("woff");
 }
 
@@ -29,11 +29,11 @@
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 700;
-    /* Браузер сначала попробует найти шрифт локально */
+    /* Р‘СЂР°СѓР·РµСЂ СЃРЅР°С‡Р°Р»Р° РїРѕРїСЂРѕР±СѓРµС‚ РЅР°Р№С‚Рё С€СЂРёС„С‚ Р»РѕРєР°Р»СЊРЅРѕ */
     src: local("Gilroy-Bold"),
-         /* Если не получилось, загрузит woff2 */
+         /* Р•СЃР»Рё РЅРµ РїРѕР»СѓС‡РёР»РѕСЃСЊ, Р·Р°РіСЂСѓР·РёС‚ woff2 */
          url("/files/fonts/woff2/gilroy/Gilroy-Bold.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Р•СЃР»Рё Р±СЂР°СѓР·РµСЂ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ woff2, Р·Р°РіСЂСѓР·РёС‚ woff */
          url("/files/fonts/woff/gilroy/Gilroy-Bold.woff") format("woff");
 }
 
@@ -41,11 +41,11 @@
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 300;
-    /* Браузер сначала попробует найти шрифт локально */
+    /* Р‘СЂР°СѓР·РµСЂ СЃРЅР°С‡Р°Р»Р° РїРѕРїСЂРѕР±СѓРµС‚ РЅР°Р№С‚Рё С€СЂРёС„С‚ Р»РѕРєР°Р»СЊРЅРѕ */
     src: local("Gilroy-Light"),
-         /* Если не получилось, загрузит woff2 */
+         /* Р•СЃР»Рё РЅРµ РїРѕР»СѓС‡РёР»РѕСЃСЊ, Р·Р°РіСЂСѓР·РёС‚ woff2 */
          url("/files/fonts/woff2/gilroy/Gilroy-Light.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Р•СЃР»Рё Р±СЂР°СѓР·РµСЂ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ woff2, Р·Р°РіСЂСѓР·РёС‚ woff */
          url("/files/fonts/woff/gilroy/Gilroy-Light.woff") format("woff");
 }
 
@@ -53,11 +53,11 @@
     font-family: "Gilroy";
     font-style: italic;
     font-weight: 300;
-    /* Браузер сначала попробует найти шрифт локально */
+    /* Р‘СЂР°СѓР·РµСЂ СЃРЅР°С‡Р°Р»Р° РїРѕРїСЂРѕР±СѓРµС‚ РЅР°Р№С‚Рё С€СЂРёС„С‚ Р»РѕРєР°Р»СЊРЅРѕ */
     src: local("Gilroy-LightItalic"),
-         /* Если не получилось, загрузит woff2 */
+         /* Р•СЃР»Рё РЅРµ РїРѕР»СѓС‡РёР»РѕСЃСЊ, Р·Р°РіСЂСѓР·РёС‚ woff2 */
          url("/files/fonts/woff2/gilroy/Gilroy-LightItalic.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Р•СЃР»Рё Р±СЂР°СѓР·РµСЂ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ woff2, Р·Р°РіСЂСѓР·РёС‚ woff */
          url("/files/fonts/woff/gilroy/Gilroy-LightItalic.woff") format("woff");
 }
 
