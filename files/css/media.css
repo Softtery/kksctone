@@ -1,0 +1,25 @@
+@media screen and (width <= 800px) {
+    .name--region {
+        display: none;
+    }
+    .tab__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tab-2 {
+        grid-template-columns: 1fr;
+    }
+    .tab-3 {
+        grid-template-columns: 1fr;
+    }
+    .main__container {
+        align-items: flex-start;
+    }
+    .footer--right {
+        font-size: var(--mob-small);
+    }
+    .album__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}

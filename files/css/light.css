@@ -3,7 +3,7 @@ body{
     color: var(--text-light);
 }
 
-a, .selah__item a{
+a, .selah__item a, .form__input{
     color: var(--text-light);
 }
 
@@ -12,14 +12,14 @@ svg path {
 }
 
 header {
-    background-image: url('files/img/bg/header.jpg');
+    background-image: url('../../files/img/bg/header.jpg');
 }
 
-nav, .tab__btn:hover, .tab__btn--active, .selah__item a {
+nav, .tab__btn:hover, .tab__btn--active, .selah__item a, .form__button:hover {
     background-color: var(--block-light);
 }
 
-.donate {
+.donate, .form__input, .form__button {
     border: 2px solid var(--text-light);
 }
 
@@ -35,7 +35,7 @@ nav, .tab__btn:hover, .tab__btn--active, .selah__item a {
     border-bottom: 2px solid var(--text-light);
 }
 
-.article__main {
+.main__article {
     background-color: var(--block-light);
     color: var(--text-light);
 }
@@ -51,7 +51,7 @@ footer {
 }
 
 .switcher__radio:checked {
-    filter: invert(1);
+     filter: invert(1);
 }
 
 .switcher__status {
